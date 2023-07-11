@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Secular One', sans-serif;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.hero {
+    background: #021313;
+    min-height: 100vh;
+    width: 100%;
+    color: whitesmoke;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 7%;
+}
+
+nav .logo-img {
+    width: 200px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.text-container {
+    display: inline-block;
+    position: relative;
+    left: 7%;
+    top: 20%;
+}
+
+.text-container h1 {
+    font-size: 55px;
+    margin-bottom: 35px;
+}
+
+.text-container p {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.text-container a {
+    text-decoration: none;
+    color: #101073;
+    padding: 6px 22px;
+    border-radius: 40px;
+    background: aqua;
+    font-size: 37px;
+}
+
+.user-img {
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    top: 95px;
+}
+
+#user-img-size {
+    width: 25vw;
+}
